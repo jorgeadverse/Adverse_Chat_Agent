@@ -69,10 +69,10 @@ index_name = "horizontes_bot_starter_c79137_kb"
 # bucket_name = "horizontes-bot-media"
 
 [vars]
-BOT_NAME = "Asistente"
-BUSINESS_NAME = "{{BUSINESS_NAME}}"
+BOT_NAME = "Asistente de Adverse Studio"
+BUSINESS_NAME = "Adverse Studio"
 BOT_LANGUAGE = "es-MX"
-# BOT_TIMEZONE = "America/Mexico_City"  # zona horaria para resolver fechas ("mañana", "el jueves 27"). Sin ella cae a CALCOM_TIMEZONE y luego a CDMX. Cámbiala si tu negocio no está en el centro de México (ej. "America/Bogota", "Europe/Madrid").
+BOT_TIMEZONE = "America/Guatemala"  # zona horaria para resolver fechas ("mañana", "el jueves 27"). Sin ella cae a CALCOM_TIMEZONE y luego a CDMX. Cámbiala si tu negocio no está en el centro de México (ej. "America/Bogota", "Europe/Madrid").
 BOT_TIER = "free"  # 'free' | 'pro'
 LLM_PROVIDER = "anthropic"
 # BLINDAJE_MODE = "full"  # estrictez del Blindaje anti-invento (Pro): 'off' | 'negaciones' | 'full'. Sin línea = 'full' (verificación completa; el prompt ya trata tool/KB/listados/cálculos como respaldo y solo bloquea contradicciones o datos sin fuente). 'negaciones' = confía en TODO dato positivo y solo vigila negaciones — para negocios que listan inventario en vivo. 'off' = apagado.
